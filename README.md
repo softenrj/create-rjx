@@ -2,9 +2,8 @@
 
 > The most animated and modern CLI to generate a full-featured Express.js boilerplate — powered by RJ
 
-![npm](https://img.shields.io/npm/v/create-rjx?color=crimson&style=flat-square)
-![license](https://img.shields.io/npm/l/create-rjx?style=flat-square)
-![Node](https://img.shields.io/node/v/create-rjx?style=flat-square)
+[![NPM version](https://img.shields.io/npm/v/create-rjx?style=flat-square&color=crimson)](https://www.npmjs.com/package/create-rjx)
+[![GitHub release](https://img.shields.io/github/v/release/softenrj/create-rjx?style=flat-square)](https://github.com/softenrj/create-rjx/releases)
 
 ---
 
