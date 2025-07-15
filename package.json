@@ -1,9 +1,9 @@
 {
   "name": "create-rjx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🔥 Animated CLI to scaffold modern Express.js boilerplates (RJX-style)",
   "license": "MIT",
-  "author": "Raj <youremail@example.com>",
+  "author": "Raj rjsharmase@gmail.com",
   "type": "module",
   "main": "index.js",
   "bin": {
@@ -13,6 +13,14 @@
     "index.js",
     "templates"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/softenrj/create-rjx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/softenrj/create-rjx/issues"
+  },
+  "homepage": "https://github.com/softenrj/create-rjx#readme",
   "keywords": [
     "cli",
     "create",
