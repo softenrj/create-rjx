@@ -22,11 +22,11 @@ GitHub: [https://github.com/softenrj](https://github.com/softenrj)
   - Security headers via `helmet` (enabled in production)
   - HTTP request logging with `morgan` (different formats for dev and production)
 - Static file serving from the `public` directory
-- Centralized error handling with logging using `jet-logger`
+- Centralized error handling with logging using `primelogger`
 - Module aliasing for cleaner import paths (`@src`, `@common`, `@routes`)
 - Useful utilities and constants organized under `src/common`
 - Development tooling with `nodemon` for hot reloads
-- Colorful console output with `chalk` and `chalk-animation` for better developer experience
+- Colorful console output with `chalk` and `chalk-animation` for better developer experience [ we will replace it in the upcomming version ]
 
 ---
 

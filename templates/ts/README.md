@@ -17,7 +17,8 @@ This boilerplate provides a solid foundation for building scalable and maintaina
 - Modular routing system
 - Static file serving from `public` directory
 - Jet-logger integration for structured logging
-- Colorful console output with chalk and chalk-animation
+- Colorful console output with chalk and chalk-animation [ we will replace it in the upcomming version ]
+- entralized error handling with logging using `primelogger`
 - Pre-configured scripts for development, build, lint, and testing
 - ESLint and Vitest for code quality and testing
 
