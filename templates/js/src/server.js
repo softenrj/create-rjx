@@ -5,7 +5,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import path from 'path';
 import http from 'http';
-import logger from 'jet-logger';
+import logger from "primelogger";
 import { NodeEnvs } from './common/constants/ENV.js';
 import router from './route.js';
 
@@ -42,7 +42,7 @@ router(app);
 // Error Handler
 app.use((err, _req, res, next) => {
   if (NodeEnv !== NodeEnvs.Test) {
-    logger.err(err, true);
+    logger.error(err);
   }
 
   const status = err;

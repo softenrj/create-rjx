@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import app from "./server.js";
 import chalkAnimation from 'chalk-animation';
-import logger from 'jet-logger';
+import logger from "primelogger";
 
 const SPINNER_FRAMES = ['|', '/', '-', '\\'];
 let spinnerIndex = 0;
@@ -21,7 +21,7 @@ const startSpinner = (text) => {
 // Start Server
 app.listen(PORT, (err) => {
   if (err) {
-    logger.err(chalk.redBright(err.message));
+    logger.error(err.message);
   } else {
     const stop = startSpinner(`Starting server on port ${PORT}...`);
 
