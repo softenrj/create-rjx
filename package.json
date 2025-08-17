@@ -5,9 +5,9 @@
   "license": "MIT",
   "author": "Raj rjsharmase@gmail.com",
   "type": "module",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "bin": {
-    "create-rjx": "./src/index.js"
+    "create-rjx": "dist/index.js"
   },
   "files": [
     "dist/**/*"
