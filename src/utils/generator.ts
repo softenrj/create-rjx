@@ -12,7 +12,7 @@ const sleep = (ms = 1000) => new Promise(resolve => setTimeout(resolve, ms));
 /**
  * Clone GitHub repo with dynamic progress
  */
-function cloneRepo(repo, targetDir) {
+function cloneRepo(repo: string, targetDir: string): Promise<void> {
     return new Promise((resolve, reject) => {
         const git = spawn('git', ['clone', '--depth', '1', '--progress', repo, targetDir]);
 
@@ -47,7 +47,7 @@ function cloneRepo(repo, targetDir) {
 /**
  * Copy template files with dynamic progress
  */
-async function copyTemplateWithProgress(src, dest) {
+async function copyTemplateWithProgress(src: string, dest: string) {
     const files = await fs.readdir(src);
     const total = files.length;
     let copied = 0;
@@ -70,7 +70,10 @@ async function copyTemplateWithProgress(src, dest) {
 /**
  * Main function to create a project
  */
-async function createProject({ projectName, language }) {
+async function createProject({ projectName, language }:{
+    projectName: string;
+    language: string;
+}) {
     const spinner = ora(`Creating ${projectName}...`).start();
     const repo = 'https://github.com/softenrj/rjx-template.git';
     const targetDir = path.join(process.cwd(), projectName);

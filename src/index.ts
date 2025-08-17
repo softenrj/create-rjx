@@ -1,7 +1,12 @@
 #!/usr/bin/env node
-import Banner from './utils/banner.js';
-import createProject from './utils/generator.js';
-import askProjectInfo from './utils/controls.js';
+
+import askProjectInfo from "./utils/controls.js";
+import Banner from "./utils/banner.js";
+import createProject from "./utils/generator.js";
+
+/**
+ * Main Fuc:
+ */
 
 async function main() {
   console.clear()

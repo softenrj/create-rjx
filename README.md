@@ -184,16 +184,6 @@ npm link  # For local testing
 
 ---
 
-## 🏆 Recognition
-
-> "The most beautiful CLI tool I've ever used!" - Developer Community
->
-> "Finally, a Node.js boilerplate generator that doesn't suck" - Tech Twitter
->
-> "10/10 would recommend for rapid prototyping" - Startup Founder
-
----
-
 ## 🧠 Pro Tips
 
 ### Power User Features

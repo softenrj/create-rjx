@@ -1,14 +1,13 @@
 import chalkAnimation from 'chalk-animation';
 import cfonts from 'cfonts';
-import chalk from 'chalk';
 
-const sleep = (ms = 1000) => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = (ms: number = 1000) => new Promise(resolve => setTimeout(resolve, ms));
 
 
 /**
  * @async
  */
-const Banner = async () => {
+const Banner = async (): Promise<void> => {
     const welcomeMsg = chalkAnimation.rainbow("✨ Welcome to RJX CLI...");
     await sleep(1800);
     welcomeMsg.stop();

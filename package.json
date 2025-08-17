@@ -5,13 +5,12 @@
   "license": "MIT",
   "author": "Raj rjsharmase@gmail.com",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
-    "create-rjx": "./index.js"
+    "create-rjx": "./src/index.js"
   },
   "files": [
-    "index.js",
-    "utils/"
+    "dist/**/*"
   ],
   "repository": {
     "type": "git",
@@ -46,5 +45,14 @@
     "progress": "^2.0.3",
     "qrcode-terminal": "^0.12.0",
     "terminal-link": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.3.0",
+    "@types/progress": "^2.0.7",
+    "@types/qrcode-terminal": "^0.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }
