@@ -1,6 +1,6 @@
 {
   "name": "create-rjx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🔥 Animated CLI to scaffold modern Express.js boilerplates (RJX-style)",
   "license": "MIT",
   "author": "Raj rjsharmase@gmail.com",
@@ -35,12 +35,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "cfonts": "^3.3.0",
     "chalk": "^5.4.1",
     "chalk-animation": "^2.0.3",
     "figlet": "^1.8.2",
     "fs-extra": "^11.3.0",
     "gradient-string": "^3.0.0",
     "inquirer": "^12.7.0",
-    "ora": "^8.2.0"
+    "ora": "^8.2.0",
+    "progress": "^2.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "terminal-link": "^4.0.0"
   }
 }
