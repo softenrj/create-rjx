@@ -1,0 +1,5 @@
+dist/* linguist-generated=true
+
+# Ignore config files if needed
+*.json linguist-documentation=true
+*.md linguist-documentation=true
