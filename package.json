@@ -11,7 +11,7 @@
   },
   "files": [
     "index.js",
-    "templates"
+    "utils/"
   ],
   "repository": {
     "type": "git",
