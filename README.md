@@ -187,7 +187,7 @@ npm link  # For local testing
 ## 🧠 Pro Tips
 
 ### Power User Features
-- Use `create-rjx .` to create in current directory
+- Use `create-rjx .` to create in current directory  (coming soon)
 - Add `--typescript` flag for TypeScript (coming soon)
 - Use `--template api` for specific templates (coming soon)
 
